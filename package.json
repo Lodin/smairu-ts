@@ -1,0 +1,53 @@
+{
+    "name": "smairu-ts",
+    "version": "0.1.0",
+    "description": "Copy/paste japanese text emoji to input field or just copy it to clipboard at one click",
+    "main": "app/app.js",
+    "scripts": {
+        "test": "karma start karma.conf.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Lodin/smairu-ts.git"
+    },
+    "keywords": [
+        "emoji",
+        "kaomoji",
+        "smiles"
+    ],
+    "author": "Vlad Rindevich",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Lodin/smairu-ts/issues"
+    },
+    "homepage": "https://github.com/Lodin/smairu-ts#readme",
+    "dependencies": {
+        "angular2": "2.0.0-beta.11",
+        "es6-promise": "^3.1.2",
+        "es6-shim": "^0.35.0",
+        "reflect-metadata": "0.1.2",
+        "rxjs": "5.0.0-beta.2",
+        "zone.js": "0.6.4"
+    },
+    "devDependencies": {
+        "del": "^2.2.0",
+        "gulp-browserify": "^0.5.1",
+        "gulp-closure-compiler": "^0.4.0",
+        "gulp-env": "^0.4.0",
+        "gulp-foreach": "^0.1.0",
+        "gulp-inline-ng2-template": "^1.1.2",
+        "gulp-jade": "^1.1.0",
+        "gulp-sass": "^2.2.0",
+        "gulp-sourcemaps": "^1.6.0",
+        "gulp-typescript": "^2.12.1",
+        "gulp-util": "^3.0.7",
+        "jasmine-core": "2.4.1",
+        "path": "^0.12.7",
+        "run-sequence": "^1.1.5",
+        "typescript": "^1.8.9",
+        "typings": "^0.7.9"
+    },
+    "engines" : {
+        "node" : ">=5.7.0"
+    }
+}
